@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+}
+#canvas {
+    border: 5px solid black;
+    background-color:black;
+}
+button{
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    display: inline-block;
+    transform: translate(-50%, -50%);
+}
+#txt{
+    position: absolute;
+    z-index: 2;
+    background: #b3b3b3;
+    padding: 20px;
+    width: 100%;
+    top: 0px;
+    text-align:center;
+}
